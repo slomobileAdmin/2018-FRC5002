@@ -1,0 +1,37 @@
+Fasteners
+
+Nail -something that should never be used to build a robot.
+
+Nominal diameter -If only 1 number is given, this is the named 'size' of a fastener.  Nothing on the fastener may actually measure that size, but you can always use the Nominal diameter for a clearance hole.
+
+Size of a fastener 
+examples 2-56, 4-40, 6-32, 8-32, 10-24, 10-32, 1/4-20, 1/4-24, 3/8NC(National Coarse), 3/8UNF(Unified National Fine), 3/8NPT(National Pipe Thread), M4-.70
+First gauge number,fraction, Mnumber represents the diameter.  Gauge sizes 0-14 need to be looked up in a chart.
+Second number represent number of threads per inch, or threads per MM if metric.
+
+Most sizes are not compatible between metric and imperial, however a 10-32 screw is just slightly smaller than an M5 and the threads are close enough that a 10-32 screw will mate loosely with a M5 nut.  This is not recommended, but will do in a pinch.
+
+Minor diameter -the smallest diameter of a threaded section.  Between threads on a screw.  Hole size of a nut or tapped hole.
+
+Major diameter -the largest diameter of a threaded section.  Outside edges of screw threads.  Between thread flutes on a nut or tapped hole.
+
+tap drill - Near the minor diameter, the drill size used to predrill for a tapped hole.  Used in the bottom layer when fastening 2 or more layers.
+
+clearance drill -Near the major diameter, the drill size to allow a fastener shaft to pass.  It is always safe to use the nominal size for a clearance hole.  Used in any but the bottom layer of a stackup if the bottom layer is threaded, all layers if a nut is used.
+
+counterbore drill -the drill size to allow a fastener head to pass.  Used in anything obstructing the top layer to allow the fastener to be inserted, for access by screwdriver, or in the surface of the top layer for screw head to be recessed.  Some purpose built counterbore bits have a pilot shaft that ensures the recess can be drilled precisely centered after the primary hole is drilled.
+
+Nut -A piece of metal with a central round hole containing internal threads.
+	Intended to mate with a matching bolt.
+
+Jam nut -A second nut threaded onto a bolt to prevent the first nut
+	from backing out.  Any nut CAN be a jam nut, but the term also applies specifically to a thin nut which allows using 2 jam nuts in roughly the same thread space as a nylock, or castle nut.
+
+Jam nut wrench -A thin wrench used to hold the first nut in place while the jam nut is tightened.  Rarely used, but sometimes required especially for adjusting bearing preload, as in a bicycle axle.  The first nut must not move, but the thickness of a normal wrench interferes with tightening the jam nut against the first nut.
+
+Wood screw -A sharp pointed helical fastener for augering into wood.  Very similar in arrearance to a drywall screw, but with smaller flutes.  Has a conical flat head with either Phillips(cross), Torx(6 lobes), or Robertson(square) recessed drive.  Small wood screws in soft wood do not require pilot holes.  Drive the screw until the head is flush with the surface.  Conical shape under the head will create its own countersink.  The harder the wood, the closer the pilot hole must be to the minor shaft diameter.  Pilot holes in wood should never exceed minor shaft diameter.  Pilot holes may be required to prevent splitting the wood.  The screw should push apart the wood a little(without splitting) to increase frictional holding power.  Do not use wood screws in metal.  Use in plastic might be ok if the plastic is soft and thick and the screw will not be removed.
+
+Machine screw -A screw intended for a tapped hole in metals or other hard material.  Requires a hole slightly larger than the minor diameter tapped to a coresponding thread pitch.  Use in plastic if the plastic is hard and the screw will be removed from time to time.
+
+Self tapping screw -Distinguished by a gradually sloping thread entry and a trough cut axially through the threads.  Requires a predrilled hole close to the minor diameter 
+

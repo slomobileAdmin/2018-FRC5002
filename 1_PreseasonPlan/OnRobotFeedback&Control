@@ -1,0 +1,44 @@
+Interface options:
+*CAN
+RS232
+TTL Serial
+I2C
+SPI
+Ethernet
+USB
+GPIO
+
+
+External Processor options:
+*Arduino variant(Teensy 3.6 w/SDIO card and audio board)
+Raspberry Pi
+ARM
+X86
+Jetson
+
+
+Screen options:
+*small < 4" (touch option)(OLED, *TFT)(*TTL Serial, SPI, I2C), *connected to External Processor	
+larger> 5" (touch option)(HDMI, DSI), connected to External Processor	
+Laptop(ethernet)
+Android device(USB, TTL Serial, ethernet)
+USB display(External Processor, RoboRIO)
+
+
+NonScreen Feedback options:
+*Speaker(External Processor Teensy Audio board)
+LED strip(External Processor)
+Panel LEDs(DIO, External Processor)
+
+Input options:
+Touchscreen(USB display, External Processor)
+Analog pot(Analog In, *External Processor)
+Digital switch(DIO, *External Processor)
+
+
+
+Dustin's parts Choice  CAN transceiver, Teensy 3.6 w/SDIO card, audio board, TFT screen connected via TTL Serial, (optional dragon eyes 2 OLED via SPI)
+
+Android dev Choice  Android device w/app
+
+Team FRC supported Choice  Jetson w/HDMI display

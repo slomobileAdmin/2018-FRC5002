@@ -1,0 +1,97 @@
+Generate white papers/video documentation for all researched topics.
+
+Prior to kickoff each season, evaluate whether any historic whitepapers remain
+private for strategic advantage, or public for chairmans award/goodwill.
+Keep in mind once something is made public, it cannot be made private again.
+
+In general, white papers will be private in the year they are generated
+and public therafter.  Exceptions will be made for significant findings
+that can improve the current game experience for many(public early), or 
+minor findings that give us an advantage(maintain private).
+ 
+Keep team record of these strategy decisions for posterity.
+
+Designs for mechanisms, software, and prototypes are different than white papers.
+At some point prior to kickoff, strategy team should identify and gather copies
+of all CAD designs/software/written plans/built prototypes currently 
+being generated and publish them on public team GitHub so that they may legally
+ be used for current game season.  Make sure team understands the game rule.
+
+Find source for gears and gear racks to mate with throttle motor.
+CAD mounting/wiring/gear interface.
+3D print linear actuator with gear rack & igus rod
+https://firstchoicebyandymark.com/fc18-030
+It is a high quality motor, seldom used, unlimited number permitted.
+unique face mount has advantages for stiffness.
+recommended for precision aiming systems, stewart platform.
+Motor Body Length: 2.5 inches
+Output Gear size: 12 tooth gear, 0.75 module, 20 degree pressure angle
+Mounting Holes: Three (3) holes (0.185 inch diameter)
+Electrical Connection Geometry: 0.15" wide spade connectors (2)
+
+Identify central location in shop where robot will be built.
+Identify best orientation for robot cart and build fixtures on floor
+to locate wheels.  Level work surface so that bubble levels may be used.
+
+
+Preseason and post season each year:
+Inventory tools team owns.  Note if in need of replacement, reconditioning.
+Inventory major assemblies team owns. (i.e. 4 swerve and steer modules)
+Inventory borrowed tools and parts 
+w/promised return date, current location, borrowing team member, and lender contact.
+Inventory loaned tools and parts
+w/expected return date, last known location, lending team member, and borrower contact.
+Stock Andymark C channel
+Stock Andymark peanut extrusion
+Stock VEXPro 1x2 
+Identify tools that we can use, acquire, borrow, or rent time on.
+Lathe
+Mill
+5C collet set(hex and square) for 1/2" hex and round shafting
+1/2" E-clip shaft groover.
+
+Choose primary fastener size and acquire quality tools for it. 
+Choose among 6-32, 8-32, 10-24, 10-32, 1/4-20
+Recommend 10-32 this year, plus tap for 10-24.  
+Choose other sizes subsequent years to fill out set and spread investment.
+Keep these together as a set, independent of other drills/taps/etc.  
+Always replace broken/missing parts in this set.
+counter bore
+pilot drill
+pilot reamer
+locator pins for pilot reamer
+clearance drill
+tap drill
+plug tap
+bottoming tap
+cutting oil
+Tap/Die set for primary fastener.
+
+research lifting structures
+overhead cable stayed crane
+sliding or rotating arm counterweight 
+Research ways to make scissor lift stable.
+cable stays pay out on winch driven by lift motor
+enclosed inside telescoping sections
+2 scissor sections rotated 90 degreees sharing comon pivots
+scissor arms with 90 degree bends so that each section is rotated 90 degrees from previous
+find geometry that works
+
+research effects of tall structures on driving
+how to detect and compensate for temporary loss of traction in driving software
+
+
+Obtain CUI encoders and learn how to use them.
+Build: mounting, wiring
+Software: Velocity, absolute position single/multiple revolutions
+
+Construct replica of field driver station platform
+on casters, docks and rolls with robot cart.
+
+Wiring: create collection of test harneses kept on driver station 
+mounted roboRio for testing/data acquisition
+
+
+
+
+
