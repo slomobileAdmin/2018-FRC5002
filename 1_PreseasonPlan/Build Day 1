@@ -1,0 +1,100 @@
+Build Day #1 starts Tuesday Nov 13 at 2PM.  
+Original schedule said till 4 but that really isn't long enough.  
+Please stay as long as you can Tuesday.  
+Try to get that expectation out to students.  We understand if they need to leave at 4.
+
+The immediate goal is to get the maximim possible done on Day 1 because it is the only day we can be sure to have the full team.  The finish line is 1 full week away Tuesday Nov 20 at 2PM.  
+This is a lot of work to do in that time and will give Leads experience wrangling time from their team mates at any opportunity.  
+During this week, please try to have the shop open as much as possible.  I can be available during school hours, lunches perhaps this week.  
+I want this week to feel like a build season week.  We can slow down afterward, but 
+I want them to experience the excitement early so they want to stay involved.  
+It is also a full team shakedown run to identify any problem areas prior to real build season.
+
+
+Non Robot Builds
+
+	Reference Station(required prior to build day, Monday Nov 12 @2PM Lead by Strategy team)
+		An area in dirty room with internet connected computer(laptop preferred so it may be taken to workbench as needed)
+		All available game reference material will be stored locally on this machine and kept updated by strategy team
+        A whiteboard will be kept close by for daily and season punchlists, shopping lists, schedule etc...
+		To be used by any team member or mentor to check specs, update team registration, etc.
+		If we are able to install VS Code IDE and GradleRIO build system and Driver station software, all the better.
+		This could also serve as a Vlog studio.  Kind of like the 'confessional' on a reality show.  
+		If you need to record a message or video note to self, note to team, use the attached webcam.  
+		There should be a clear link on desktop to automate this.  Media team to monitor and post as appropriate.
+		This machine could also be the host for build room time lapse camera.  
+		Time lapse from previous years was very popular and useful for post mortem analysis when things failed.
+        
+	Player Station Cart(not required on first build day)
+        A mobile cart capable of docking w/robot cart.  Emulates actual player station.
+		A 12" deep table, 3ft high, ~4ft wide, with power and ethernet cable attached.
+		2" Velcro loop strip in center for attaching operator console
+		On locking casters, w/3' clear panel.  Use as transparent whiteboard/test optical conditions controlling robot downfield
+		If spare control system available, mount to cart for testing.
+
+	Virtual Reality Station(not required on first build day)
+		Field plans will be issued as VR.
+		So teams can virtually walk through game playing field.  
+		Have this ready before kickoff for content released at kickoff.
+		Discuss feasability of bringing to Kickoff for use of other teams.(not likely)
+
+Robot Builds
+	
+	2018 Robot  (Lead by Programming team)
+		Port existing code to new 2019 Alpha/Beta VS Code IDE C++ and GradleRIO build system
+		If 2018 code unavailable start from scratch.
+		C++ chosen for first build due to being native, used for WPILib development.
+		On new platform C++ is likely the most developed, best performing.
+		We can change this to anything available later.  This is just to get our feet wet with demos.
+		Check on current feasability for Python in 2019
+		Test drive.  Have fun with it.  Help other builds with code.
+
+	T shirt cannon  (Lead by CAD team)
+		Assign permanent resources for storage/use of T shirt cannon
+		Carefully disassemble top plate, document construction with sketches to be made into CAD drawings.
+		This should be our most well documented robot. As it will be a test mule each year.
+			(delay, but plan for)Mount FRC control system in waterproof box.
+			(delay, but plan for)Flexible watertight conduit.
+		Wire, assemble base, design cannon so it is removable and modular
+		Discuss modular mounting of other game components.  Sketch out ideas.
+		Build in a simple RC drive system so we dont need laptop etc.
+		Design for switching FRC control system in/out
+
+	From Scratch Bot  (Lead by Build team)
+		Use yellow swerve modules from sketching presentation.  Review existing drawings.
+		Design frame to achieve 3 goals discussed during sketching. 
+		Perimeter dimensions should be less than smallest ever allowed(Strategy team research) in FRC and round or oval shape. 
+		Evaluate quality of drawings, note areas for improvement.
+		Use surrogate polycarbonate sheet for Dustin's prebuilt control board if you get that far,
+		otherwise prebuilt control board reserved for float.  
+		Load basic code with assistance from Programming teams.
+
+Float Builds  (Lead by Media Team)
+		Design and build elements for Christmas Float.
+		Gather specs/size of trailer.
+		Integrate with above 3 robots as much as possible.
+		Minimize permanent mods for temporary structure.  Ask mentor before drilling/cutting on robots.  Use clamps where possible.
+		Freely cut cardboard, wood, and other inexpensive 'stock' material.
+		Consider carying a FRC driver station on T shirt cannon bot which is driven through crowd by RC.
+		Parade bystanders can use FRC driver station to activate 
+		Not limited to RoboRIO, consider Arduino, servo, lighting, direct wire.
+		Dustin's prebuilt control system board is available if required.  Build for dissassembly.
+
+Every build day is a live test of the safety team.
+
+Notes to Students:
+Team leads will maintain pace and focus of team members under them.
+Mentors are available to assist as needed, but please consider the Reference Station your primary source of 
+1 or 2 experienced members are the leads and will stick with their projects. 
+Everyone else might float between teams.
+Team leads encouraged to 'instantly recruit' or 'claim' any member seen loafing, regardless of specialty.
+If you don't want your team to lose members, keep them busy.
+Members may be reassigned on demand by coach/mentors.  The goal is for each non-lead member to get some experience on what they like, find what they are good at(maybe not what they like), and to at least briefly try something out of their comfort zone.
+It is the responsibility of EVERY TEAM MEMBER to take good notes during build week.
+We are especially interested in any suggestions to improve our process before build season.
+We will ask to review your notes prior to Build Day #2
+
+
+
+
+

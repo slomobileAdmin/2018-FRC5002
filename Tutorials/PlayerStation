@@ -1,0 +1,176 @@
+3.6.1
+
+A PLAYER STATION is one (1) of three (3) assigned positions in an ALLIANCE WALL from where a
+DRIVE TEAM operates their ROBOT. Each PLAYER STATION is made from a 3 ft. (~91 cm) tall diamond
+plate panel base topped with a 3 ft. 6 in. (~107 cm) tall transparent plastic panel. An aluminum shelf is
+attached to each PLAYER STATION to support the DRIVE TEAM’S OPERATOR CONSOLE. The shelf is
+5 ft. 9 in. (~175 cm) wide and 1 ft. (~30 cm) deep. There is a 4 ft. 6 in. (~137 cm) long by 2 in. (nominal)
+wide strip of hook-and-loop tape (“loop” side) along the center of the support shelf that may be used to
+secure the OPERATOR CONSOLE to the shelf.
+Each PLAYER STATION contains the following components for Teams:
+• One Ethernet Cable: attaches to the Ethernet port of the OPERATOR CONSOLE and
+provides connectivity to the FIELD Management System.
+• One 120VAC NEMA 5-15R power outlet: located on each PLAYER STATION shelf and
+protected by its own 2-Amp circuit breaker. It can be used to power the OPERATOR
+CONSOLE. DRIVE TEAMS are responsible for monitoring their power consumption as a
+tripped breaker in the outlet does not constitute an ARCADE fault.
+• One Emergency Stop (E-Stop) button: located on the left side of the PLAYER STATION shelf
+and should be used to deactivate a ROBOT in an emergency.
+• One Team sign: displays the Team number and located at the top of each PLAYER
+STATION.
+• One Team LED: indicates ALLIANCE color, ROBOT status, and E-Stop status and centered
+at the top of each PLAYER STATION. Team LED states include:
+− Solid: indicates that the ROBOT is connected and enabled. This will only happen during a
+MATCH.
+− Blinking: indicates that either the Field Management System is preset for the MATCH or it’s
+during a MATCH and the corresponding ROBOT has lost connectivity.
+− Off: indicates that the MATCH has not started yet, but the ROBOT is linked and disabled. −
+If the amber LED is on, the E-stop button has been pressed.
+• One Timer (in the PORTAL adjacent to PLAYER STATION 1): displays the official time
+remaining in AUTO, TELEOP, and TIMEOUTS and marked with white tape along the bottom
+edge.
+• Field Management System hardware and wiring: mostly located below the center PLAYER
+STATION shelf.
+
+3.10 The FIELD Management System
+The FIELD Management System (FMS) is the electronics core responsible for controlling the FIRST
+Robotics Competition playing field. The FMS encompasses all field electronics, including the computers,
+REFEREE touchscreens, wireless access point, sensors, stack lights, E-Stops, etc.
+When a DRIVE TEAM connects the Ethernet cable from their assigned PLAYER STATION to their
+OPERATOR CONSOLE, the Driver Station software on the OPERATOR CONSOLE computer will begin
+to communicate with the Field Management System (FMS). Once connected to FMS, the only open ports
+available are described in Table 3-3.
+Table 3-3: Open FMS Ports
+Port Designation Bi-directional?
+UDP/TCP 1180-1190
+Camera data from the roboRIO to the Driver
+Station (DS) when the camera is connected
+the roboRIO via USB
+Yes
+TCP 1735 SmartDashboard Yes
+UDP 1130 Dashboard-to-ROBOT control data Yes
+UDP 1140 ROBOT-to-Dashboard status data Yes
+HTTP 80 Camera connected via switch on the ROBOT Yes
+HTTP 443 Camera connected via switch on the ROBOT Yes
+UDP/TCP 554 Real-Time Streaming Protocol for h.264
+camera streaming Yes
+UDP/TCP 5800-5810 Team Use Yes
+
+
+Teams may use these ports as they wish if they do not employ them as outlined above (e.g. TCP 1180
+can be used to pass data back and forth between the ROBOT and the Driver Station software if the Team
+chooses not to use the camera on USB). Note that ROBOT code cannot be deployed while connected to
+the FMS. Additional information about the FMS may be found in the FMS Whitepaper.
+The FMS provides the ALLIANCE color assigned to each PLATE to the Driver Station software.
+Immediately following the assignment of PLATE color prior to the start of AUTO. Specific details on the
+format of the data can be found on the 2018 FRC Control System website.
+While FMS does provide the ALLIANCE PLATE color to each team’s
+Driver Station, teams must write the necessary ROBOT code to make
+use of the information during a MATCH.
+
+FMS alerts participants to milestones in the MATCH using audio cues. Please note that audio cues are
+intended to be a courtesy to participants and not intended as official MATCH markers. If there is a
+discrepancy between an audio cue and the FIELD timers, the FIELD timers are the authority.
+• MATCH Start & PLATES randomized: “Startup Sound”
+• AUTO Start: “Cavalry Charge”
+• T=0 for AUTO: Buzzer
+• Start of TELEOP: Three (3) Bells
+• T-30 seconds in TELEOP: Train Whistle
+• T=0 for TELEOP/MATCH end: Buzzer
+• MATCH stopped: Foghorn
+• POWER UP activated: “Linear Popping"
+
+C09. Plug in to/be in your PLAYER STATION. The OPERATOR CONSOLE must be used in the
+PLAYER STATION to which the Team is assigned, as indicated on the Team sign.
+Violation: The MATCH will not start until the situation is corrected. If during a MATCH, DISABLED.
+One intent of C09 is to prevent unsafe situations where long tethers to
+OPERATOR CONSOLE devices increase tripping hazards as the
+operator moves about the ALLIANCE STATION. In the interest of
+avoiding nuisance penalties associated with an operator stepping outside
+of a prescribed area, we prefer to offer a general guideline as to what it
+means to use the OPERATOR CONSOLE in the ALLIANCE STATION.
+Provided the operator is within close proximity of their PLAYER
+STATION, there will be no repercussions. However, if an operator is
+located more than approximately ½ PLAYER STATION width away from
+their own PLAYER STATION, that would be considered a violation of
+C09.
+
+G03. Know your DRIVE TEAM positions. Prior to the start of the MATCH, DRIVE TEAMS must be
+positioned as follows:
+A. DRIVERS and COACHES must be in their ALLIANCE STATION and behind the
+STARTING LINE
+B. HUMAN PLAYERS must be behind the STARTING LINE and either in their
+ALLIANCE STATION or one of their ALLIANCE PORTALS
+C. TECHNICIANS must be in their designated area outside the ALLIANCE STATION
+and PORTALS.
+Violation: MATCH will not start until the situation is corrected.
+The specific location for the TECHNICIAN to stand during a MATCH may
+vary by event due to space restrictions around the FIELD. In general,
+TECHNICIANS are located with their Team’s ROBOT cart and within
+close proximity to the FIELD.
+
+
+
+8.10 OPERATOR CONSOLE
+R97. The Driver Station software provided on the National Instruments website is the only application
+permitted to specify and communicate the operating mode (i.e. Autonomous/Teleoperated) and
+operating state (Enable/Disable) to the ROBOT. The Driver Station software must be revision
+18.0 or newer.
+Teams are permitted to use a portable computing device of their choice
+(laptop computer, tablet, etc.) to host the DRIVER Station software while
+participating in competition MATCHES.
+R98. The OPERATOR CONSOLE, the set of COMPONENTS and MECHANISMS used by the
+DRIVERS and/or HUMAN PLAYER to relay commands to the ROBOT, must include a graphic
+display to present the Driver Station diagnostic information. It must be positioned within the
+OPERATOR CONSOLE so that the screen display can be clearly seen during Inspection and in a
+MATCH.
+R99. Devices hosting the Driver Station software must only interface with the Field Management
+System (FMS) via the Ethernet cable provided at the PLAYER STATION (e.g. not through a
+switch). Teams may connect the FMS Ethernet cable to their Driver Station device directly via an
+Ethernet pigtail, or with a single-port Ethernet converter (e.g. docking station, USB-Ethernet
+converter, Thunderbolt-Ethernet converter, etc.). The Ethernet port on the OPERATOR
+CONSOLE must be easily and quickly accessible.
+Teams are strongly encouraged to use pigtails on the Ethernet port used
+to connect to the FMS. Such pigtails will reduce wear and tear on the
+device’s port and, with proper strain relief employed, will protect the port
+from accidental damage.
+R100. The OPERATOR CONSOLE must not
+A. be longer than 60 in. (~152 cm)
+B. be deeper than 14 in. (~35 cm) (excluding any items that are held or worn by the
+DRIVERS during the MATCH)
+C. extend more than 6 ft. 6 in. (~198 cm) above the floor
+D. attach to the ARCADE (except as permitted by G19)
+There is a 54 in. (~137 cm) long by 2 in. (nominal) wide strip of hookand-loop
+tape (“loop” side) along the center of the PLAYER STATION
+support shelf that should be used to secure the OPERATOR CONSOLE
+to the shelf, per G19. See Section 3.6.1 PLAYER STATION for details.
+Please note that while there is no hard weight limit, OPERATOR
+CONSOLES that weigh more than 30 lbs. (~13 kg.) will invite extra
+scrutiny as they are likely to present unsafe circumstances.
+R101. Other than the system provided by the ARCADE, no other form of wireless communications shall
+be used to communicate to, from, or within the OPERATOR CONSOLE.
+Examples of prohibited wireless systems include, but are not limited to,
+active wireless network cards and Bluetooth devices. For the case of the
+FIRST Robotics Competition, a motion sensing input device (e.g.
+Microsoft Kinect) is not considered wireless communication and is
+allowed.
+R102. OPERATOR CONSOLES shall not be made using hazardous materials, be unsafe, cause an
+unsafe condition, or interfere with other DRIVE TEAMS or the operation of other ROBOTS.
+
+ALLIANCE Leads are assigned to PLAYER STATION 2, the first picks are assigned to their left in
+PLAYER STATION 1, and second picks are assigned to the ALLIANCE Lead’s right in PLAYER
+STATION 3. If a BACKUP TEAM is in play, they will be assigned to the PLAYER STATION that was
+assigned to the DRIVE TEAM they’re replacing. Teams cannot change assignments.
+
+For Quarterfinal MATCHES, the higher seeded ALLIANCE is assigned to the Red ALLIANCE. Beyond the
+Quarterfinal MATCHES, the ALLIANCE on the top of each MATCH in Figure 10-2 are assigned to the
+Red ALLIANCE, regardless of whether they are the higher seeded ALLIANCE in that particular MATCH.
+
+If a DRIVE TEAM needs clarification on a ruling or score, per C08, one (1) pre-college student from that
+DRIVE TEAM should address the Head REFEREE after the ARCADE Reset Signal (e.g. LED lights turn
+green). A DRIVE TEAM member signals their desire to speak with the Head REFEREE by standing in the
+corresponding Red or Blue Question Box, which are located on the floor near each end of the scoring
+table. Depending on timing, the Head REFEREE may postpone any requested discussion until the end of
+the subsequent MATCH as necessary.
+
+

@@ -1,0 +1,38 @@
+This list contains jobs that must be done to build the robot
+Add jobs to the list as they become known.
+Prepend *Done* to the front of first line of job when completed.
+
+
+*Done* Choose KOP drivetrain opt out, or not.
+		Did not opt out.
+
+Read Rules & Game Manual
+
+Setup shop
+
+Build Driver Station Cart
+
+Choose FIRSTChoice items
+
+Choose OnRobotFeedback&Control
+
+Develop OnRobotFeedback&Control
+
+Test OnRobotFeedback&Control
+
+Choose drive type (tank, swerve, mecanum, omni, octanum...)
+
+Choose perimeter shape and size
+
+Choose wheel size (smaller for smooth field, larger for obstacles)
+
+Choose game subsystems
+
+Choose software language
+
+Choose drive controller(1st joystick, 1st gamepad, wheel, foot controls, representative model)
+
+Choose robot feedback(smartDashboard, network table keys, OnRobot LED, screen, speaker)
+
+Choose nonDrive controller(smartDashboard, 2nd joystick, 2nd gamepad, representative model, OnRobot switches, joystick, touchscreen, voice recognition)
+
